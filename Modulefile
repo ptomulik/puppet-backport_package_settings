@@ -1,5 +1,5 @@
 name    'ptomulik-backport_package_settings'
-version '0.0.1'
+version '0.0.2'
 source 'git://github.com/ptomulik/puppet-backport_package_settings.git'
 author 'ptomulik'
 license 'Apache License, Version 2.0'
