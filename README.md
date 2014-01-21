@@ -1,5 +1,7 @@
 # ptomulik-backport_package_settings
 
+[![Build Status](https://travis-ci.org/ptomulik/puppet-backport_package_settings.png?branch=master)](https://travis-ci.org/ptomulik/puppet-backport_package_settings)
+
 #### Table of Contents
 
 1. [Overview](#overview)

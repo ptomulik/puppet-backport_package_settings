@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 group :development, :test do                                                    
   gem 'rake' 
+  gem 'rspec-puppet'
+  gem 'puppetlabs_spec_helper',  :require => false                              
 end                                                                             
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']                                    

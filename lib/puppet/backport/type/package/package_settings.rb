@@ -39,7 +39,7 @@ unless package.features.include? :package_settings
         if provider.respond_to?(:package_settings_validate)
           provider.package_settings_validate(value)
         else
-          super
+          super(value)
         end
       end
 
@@ -47,7 +47,7 @@ unless package.features.include? :package_settings
         if provider.respond_to?(:package_settings_munge)
           provider.package_settings_munge(value)
         else
-          super
+          super(value)
         end
       end
 
@@ -59,7 +59,7 @@ unless package.features.include? :package_settings
         if provider.respond_to?(:package_settings_should_to_s)
           provider.package_settings_should_to_s(should, newvalue)
         else
-          super
+          super(newvalue)
         end
       end
 
@@ -67,7 +67,7 @@ unless package.features.include? :package_settings
         if provider.respond_to?(:package_settings_is_to_s)
           provider.package_settings_is_to_s(should, currentvalue)
         else
-          super
+          super(currentvalue)
         end
       end
 
@@ -75,7 +75,7 @@ unless package.features.include? :package_settings
         if provider.respond_to?(:package_settings_change_to_s)
           provider.package_settings_change_to_s(currentvalue, newvalue)
         else
-          super
+          super(currentvalue,newvalue)
         end
       end
     end
