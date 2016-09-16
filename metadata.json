@@ -1,0 +1,11 @@
+{
+  "name": "ptomulik-backport_package_settings",
+  "version": "0.0.3",
+  "author": "ptomulik",
+  "summary": "Backport package_settings feature to older puppet versions",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/ptomulik/puppet-backport_package_settings.git",
+  "project_page": "https://github.com/ptomulik/puppet-backport_package_settings",
+  "issues_url": "https://github.com/ptomulik/puppet-backport_package_settings/issues",
+  "description": "Add package_settings feature and parameter to package resource if it does not exist",
+}

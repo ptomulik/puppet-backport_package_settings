@@ -1,3 +1,5 @@
+2016-09-16 Pawel Tomulik <ptomulik@meil.pw.edu.pl>
+  * switch from Modulefile to metadata.json
 2014-01-21 Pawel Tomulik <ptomulik@meil.pw.edu.pl>
   * release 0.0.2
   * Fixed a bug in package/package_settings (implicit argument passing of
