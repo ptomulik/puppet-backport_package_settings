@@ -1,4 +1,6 @@
 2016-09-16 Pawel Tomulik <ptomulik@meil.pw.edu.pl>
+  * release 0.0.3
+  * swich project to discontinued state
   * update Gemfile to work with more rubies
   * update .travis.yml (more environments, all branches)
   * switch from Modulefile to metadata.json

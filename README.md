@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/ptomulik/puppet-backport_package_settings.png?branch=master)](https://travis-ci.org/ptomulik/puppet-backport_package_settings)
 
+#### Discontinued!!
+
+This project is no longer developed. Use
+[ptomulik-backports](https://github.com/ptomulik/puppet-backports) instead.
+
 #### Table of Contents
 
 1. [Overview](#overview)
