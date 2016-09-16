@@ -8,4 +8,6 @@
   "project_page": "https://github.com/ptomulik/puppet-backport_package_settings",
   "issues_url": "https://github.com/ptomulik/puppet-backport_package_settings/issues",
   "description": "Add package_settings feature and parameter to package resource if it does not exist",
+  "dependencies": [
+  ]
 }
